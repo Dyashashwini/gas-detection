@@ -25,7 +25,7 @@ do_connect()
 # Important Credentials
 MQTT_CLIENT_ID = bytes(hexlify(machine.unique_id()), 'utf-8')
 # MQTT server and serverport=1883 needs to be added in adafruit for mqtt connection
-ADAFRUIT_IO_URL = b'io.adafruit.com'
+ADAFRUIT_IO_URL = b'io.adafruit.com' #MQTT Server Name
 ADAFRUIT_USERNAME = b'***********'
 ADAFRUIT_IO_KEY = b'aio_unwx86YFKwP3nPl4i*********'
 
